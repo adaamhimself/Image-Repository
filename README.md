@@ -4,9 +4,6 @@
 This webservice was designed to store and retrieves images. In addition to the standard CRUD operations, the api also allows searching by keyword and photo comparison.  
 
 
-* Delete: Photos can be deleted by providing the object id.  
-* Photo comparison: Whenever an image is stored, it is automatically hashed and that hash is stored in the database. Comparisons are made by hashing a provided image and comparing that against the hashes in the database, returning the result.  
-
 ## Routes
 
 POST /img : Multer is used to parse and upload images. The image is hashed and the details are stored in a MongoDB database. Images are stored locally.  
