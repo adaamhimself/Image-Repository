@@ -1,7 +1,7 @@
 # Image Repository
  
 ## Summary
-This webservice was designed to store and retrieve images. In addition to the standard CRUD operations, the api also allows searching by keyword and photo comparison.  
+This webservice was designed to store and retrieve images. In addition to the standard CRUD operations, the api also allows searching by keyword and accepts photo uploads to find the same image in storage.  
 
 
 ## Routes
